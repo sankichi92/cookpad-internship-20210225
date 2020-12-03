@@ -1,0 +1,20 @@
+name: reviewdog
+
+on: [ pull_request ]
+
+jobs:
+  rubocop:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+
+      - uses: reviewdog/action-rubocop@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          rubocop_version: 1.10.0
+          reporter: github-pr-review
