@@ -6,7 +6,7 @@
 
 また、残った時間で[発展課題](advanced.md)を解きます。
 
-最後に、よければ今日の成果を https://github.com/sankichi92/cookpad-internship-20210218 にプルリクエストしてください。
+最後に、よければ今日の成果を https://github.com/sankichi92/cookpad-internship-20210225 にプルリクエストしてください。
 書いたコードについて気になるところ等をプルリクエストに書いてもらえれば、講師が後日レビュー・回答します。
 
 # 目次

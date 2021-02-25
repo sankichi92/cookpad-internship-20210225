@@ -15,15 +15,15 @@
 
 ハンズオンで利用するリソースを用意します。
 
-https://github.com/sankichi92/cookpad-internship-20210218 を fork してください。
+https://github.com/sankichi92/cookpad-internship-20210225 を fork してください。
 
 fork したリポジトリを clone してください（事前準備の際に clone したものは削除して大丈夫です）。
 
-    $ git clone https://github.com/YOUR_GITHUB_ID/cookpad-internship-20210218.git
+    $ git clone https://github.com/YOUR_GITHUB_ID/cookpad-internship-20210225.git
 
 リポジトリに移動して、依存ライブラリをインストールします。
 
-    $ cd cookpad-internship-20210218
+    $ cd cookpad-internship-20210225
     $ bundle install
 
 以降のハンズオンは、このリポジトリ内で行います。
